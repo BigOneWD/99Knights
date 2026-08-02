@@ -6,7 +6,7 @@ A browser-based 2D arcade roguelite with a 27-room delivery journey, three boss 
 
 After GitHub Pages is enabled, the game will be available at:
 
-**https://bigonewd.github.io/99Knights-2D-/**
+**https://bigonewd.github.io/99Knights/**
 
 ## Controls
 
