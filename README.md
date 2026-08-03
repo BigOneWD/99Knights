@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="docs/99knights-banner.svg" alt="99Knights 2D — browser-based delivery roguelite" width="100%">
+  <img src="docs/99knights-banner.svg" alt="99Knights 2D — Three Orders. One Impossible Route." width="100%">
 </p>
 
 <h1 align="center">99Knights 2D</h1>
 
 <p align="center">
-  <strong>Three orders. One family. One ordinary rider on a kingdom-ending route.</strong><br>
-  三个订单，一个家庭，一场被系统误判的末日任务。
+  <strong>Three orders. One impossible route.</strong><br>
+  三个订单，一条不该存在的路线。
 </p>
 
 <p align="center">
@@ -17,18 +17,20 @@
 
 ## About
 
-**99Knights 2D** is a browser-based 2D arcade roguelite built around a 27-room delivery journey. An ordinary courier must fight through a Royal Delivery System that has mistaken three family orders for a kingdom-ending threat.
+**99Knights 2D** is a browser-based 2D action roguelite built around a 27-room delivery journey.
 
-The complete illustrated v1.0 campaign runs as a self-contained HTML5 Canvas game with no backend or account requirement.
+An ordinary courier accepts three routine orders. Before the first route is complete, the Royal Express Protocol declares a kingdom-level emergency—and sends its commanders to stop him.
+
+The illustrated v1.0 campaign runs as a self-contained HTML5 Canvas game with no backend or account requirement.
 
 ## Highlights
 
 - **27-room campaign** across three delivery acts
-- **Three boss encounters** with distinct reconciliation routes
+- **Three boss encounters** with distinct mechanics and possible outcomes
 - **Parry, posture, dodge and execution combat**
 - **Chinese and bilingual dialogue modes**
-- **Six illustrated story scenes** from protocol failure to family dinner
-- **Campfire upgrades** and multiple warm endings
+- **Six illustrated story scenes** woven into the run
+- **Campfire upgrades** and multiple endings
 - **Local-only playtest reporting** unless the player exports a report
 
 ## Play
@@ -53,9 +55,9 @@ Desktop keyboard and mouse are recommended.
 
 ## Story
 
-Morning coffee. Lunch shrimp fried rice. Evening salmon sushi.
+Three deliveries. Three guarded districts. Three commanders standing in the way.
 
-The Royal Express Protocol sees three separate orders and declares a catastrophic operation. The courier gradually discovers that the routes all lead back to the same household—and that the most dangerous part of the mission may be the system itself.
+Why has an ordinary delivery route triggered the kingdom's highest emergency protocol?
 
 ## Current Release
 
@@ -66,7 +68,7 @@ The Royal Express Protocol sees three separate orders and declares a catastrophi
 - Bilingual dialogue and character portraits
 - Six illustrated cutscenes
 - Campfire sanctuary and upgrade flow
-- Four family-centered endings
+- Multiple endings shaped by the run
 
 ## Technical Notes
 
