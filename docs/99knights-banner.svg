@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">99Knights 2D</title>
+  <desc id="desc">A bright fantasy delivery adventure featuring coffee, shrimp fried rice, salmon sushi, a courier and a distant castle.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fd0ff"/>
+      <stop offset="0.62" stop-color="#cceeff"/>
+      <stop offset="1" stop-color="#f8d89a"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ebf75"/>
+      <stop offset="1" stop-color="#2d6d4d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111725" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#253550" stop-opacity="0.92"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0d2337" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="480" rx="28" fill="url(#sky)"/>
+  <circle cx="1005" cy="88" r="48" fill="#fff6bd" opacity="0.9"/>
+
+  <path d="M0 310 C160 250 250 280 390 238 C540 194 660 245 790 210 C940 170 1085 205 1200 176 L1200 480 L0 480 Z" fill="#79b98a" opacity="0.7"/>
+  <path d="M0 348 C180 292 310 350 470 298 C640 244 790 320 940 266 C1055 224 1135 242 1200 230 L1200 480 L0 480 Z" fill="url(#ground)"/>
+  <path d="M0 405 C210 352 430 426 620 370 C820 312 1010 398 1200 337 L1200 480 L0 480 Z" fill="#204d3d" opacity="0.72"/>
+
+  <!-- distant castle -->
+  <g transform="translate(930 160)" opacity="0.8">
+    <rect x="36" y="58" width="132" height="98" fill="#d8e1e6"/>
+    <rect x="14" y="78" width="46" height="78" fill="#c4d2da"/>
+    <rect x="144" y="72" width="50" height="84" fill="#c4d2da"/>
+    <path d="M7 78 L37 38 L67 78 Z" fill="#6e7797"/>
+    <path d="M137 72 L169 28 L201 72 Z" fill="#6e7797"/>
+    <path d="M60 58 L102 8 L144 58 Z" fill="#59698b"/>
+    <rect x="94" y="112" width="20" height="44" rx="10" fill="#43536e"/>
+    <path d="M102 8 V-24" stroke="#4d4e69" stroke-width="5"/>
+    <path d="M105 -23 L139 -10 L105 3 Z" fill="#e95b52"/>
+  </g>
+
+  <!-- route -->
+  <path d="M770 359 C850 335 856 276 915 269 C978 261 1010 322 1082 289" fill="none" stroke="#ffdd67" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 18" opacity="0.95"/>
+  <circle cx="770" cy="359" r="9" fill="#fff3a2"/>
+  <circle cx="915" cy="269" r="9" fill="#fff3a2"/>
+  <circle cx="1082" cy="289" r="9" fill="#fff3a2"/>
+
+  <!-- courier -->
+  <g transform="translate(780 255)" filter="url(#shadow)">
+    <ellipse cx="8" cy="147" rx="58" ry="14" fill="#173b30" opacity="0.35"/>
+    <path d="M-22 42 C-46 66 -54 124 -28 142 L34 142 C55 110 45 65 20 42 Z" fill="#2b3444"/>
+    <path d="M-12 54 C-42 78 -55 117 -62 142 L-18 132 L4 64 Z" fill="#c83f45"/>
+    <circle cx="0" cy="26" r="30" fill="#f0b58a"/>
+    <path d="M-27 25 C-23 -6 19 -18 31 17 C19 4 2 6 -9 2 C-12 16 -20 24 -27 25 Z" fill="#1f2028"/>
+    <rect x="29" y="57" width="62" height="72" rx="12" fill="#d94146" stroke="#8f242b" stroke-width="5"/>
+    <text x="60" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffe99c">99</text>
+    <path d="M-24 82 L-52 116" stroke="#f0b58a" stroke-width="13" stroke-linecap="round"/>
+    <path d="M18 81 L55 106" stroke="#f0b58a" stroke-width="13" stroke-linecap="round"/>
+    <path d="M-21 136 L-35 174 M24 136 L34 174" stroke="#202937" stroke-width="17" stroke-linecap="round"/>
+  </g>
+
+  <!-- title panel -->
+  <g filter="url(#shadow)">
+    <rect x="56" y="54" width="650" height="300" rx="28" fill="url(#panel)"/>
+    <rect x="56" y="54" width="10" height="300" rx="5" fill="#efb44b"/>
+  </g>
+  <text x="104" y="139" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="900" letter-spacing="-3" fill="#ffffff">99KNIGHTS</text>
+  <text x="108" y="186" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="4" fill="#efc66e">DELIVERY ROGUELITE · 2D</text>
+  <text x="108" y="242" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#dce9f2">Three orders. One family.</text>
+  <text x="108" y="281" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#dce9f2">One kingdom-ending route.</text>
+  <text x="108" y="325" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9fc2d4">三个订单 · 一个家庭 · 一场被误判的末日任务</text>
+
+  <!-- order cards -->
+  <g transform="translate(85 379)" filter="url(#shadow)">
+    <rect width="174" height="72" rx="18" fill="#fff7e8" stroke="#c98746" stroke-width="4"/>
+    <path d="M24 22 H64 V52 H24 Z" fill="#8a4e2e"/>
+    <path d="M64 27 C84 27 84 48 64 48" fill="none" stroke="#8a4e2e" stroke-width="6"/>
+    <path d="M32 13 C28 6 38 4 34 -5 M48 13 C44 6 54 4 50 -5" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    <text x="44" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#ffe8b9">坤</text>
+    <text x="103" y="44" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#3a2b27">COFFEE</text>
+  </g>
+
+  <g transform="translate(278 379)" filter="url(#shadow)">
+    <rect width="204" height="72" rx="18" fill="#fff7e8" stroke="#c98746" stroke-width="4"/>
+    <path d="M24 34 Q47 61 72 34 Z" fill="#316f8c"/>
+    <ellipse cx="48" cy="34" rx="27" ry="11" fill="#f1d27a"/>
+    <path d="M34 30 C40 21 49 22 54 29 C50 35 40 36 34 30 Z" fill="#ed7c58"/>
+    <path d="M53 29 C60 20 70 24 70 32 C63 37 57 35 53 29 Z" fill="#ed7c58"/>
+    <text x="88" y="44" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#3a2b27">SHRIMP RICE</text>
+  </g>
+
+  <g transform="translate(502 379)" filter="url(#shadow)">
+    <rect width="204" height="72" rx="18" fill="#fff7e8" stroke="#c98746" stroke-width="4"/>
+    <g transform="translate(20 17)">
+      <rect x="0" y="12" width="48" height="25" rx="9" fill="#f8f4dc"/>
+      <rect x="0" y="5" width="48" height="17" rx="8" fill="#f06e55"/>
+      <path d="M9 8 H41 M9 14 H41" stroke="#ffc5a9" stroke-width="3" opacity="0.75"/>
+    </g>
+    <text x="86" y="44" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#3a2b27">SALMON SUSHI</text>
+  </g>
+
+  <rect x="0" y="0" width="1200" height="480" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="4"/>
+</svg>
